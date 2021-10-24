@@ -4,6 +4,7 @@
   "description": "Utils for Taku",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": "https://github.com/taku-moe/taku.utils",
   "scripts": {
     "compile": "tsc",
     "publish": "npm publish --access public",

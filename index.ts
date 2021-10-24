@@ -1,4 +1,4 @@
-export namespace Taku.Utils {
+export namespace Utils {
   export class Enums {
     public static ONE_DAY = 86400;
     public static ONE_HOUR = 86400;

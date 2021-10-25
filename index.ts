@@ -14,9 +14,7 @@ export namespace Utils {
      * Pads a number with a zero
      * @param number the number to pad
      */
-    public static pad = (number: number) => {
-      return number < 10 ? `0${number}` : number;
-    }
+    public static pad = (number: number) => number < 10 ? `0${number}` : number;
 
     /**
      * Converts seconds to a human readable string
@@ -34,7 +32,7 @@ export namespace Utils {
      * @param string the string to capitalize
      * @returns capitalized string
      */
-    public static capitalizeWords = (string: string): string => {
+    public static capitalizeWords = (string: string) => {
       return string
         .split(" ")
         .map((word) => word.charAt(0).toUpperCase() + word.substr(1))

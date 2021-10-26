@@ -7,6 +7,7 @@ export namespace Utils {
     public static IMAGE_EXTENSIONS = [".jpg", ".png", ".webp", ".gif", ".svg", ".jpeg", ".apng", ".ico"];
     public static AUDIO_EXTENSIONS = [".flac", ".ogg", ".aiff", ".aac", ".mp3", ".wav"];
     public static VIDEO_EXTENSIONS = [".mp4", ".webm", ".flv", ".mov", ".mkv"];
+    public static ARCHIVE_EXTENSIONS = [".zip", ".rar", ".7z", ".tar.gz"," .tgz,", ".tar.Z", ".tar.bz2", " .tbz2,", ".tar.lz"," .tlz.", ".tar.xz"," .txz,", ".tar.zst" ];
   }
 
   export class Formatters {
